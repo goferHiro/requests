@@ -9,4 +9,4 @@ Example
 res, body, err := requests.Request(u,nil,gorequests.GET)
 
 */
-package gorequests
+package requests

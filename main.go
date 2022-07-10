@@ -1,4 +1,4 @@
-package gorequests
+package requests
 
 import (
 	"github.com/parnurzeal/gorequest"
