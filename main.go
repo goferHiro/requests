@@ -17,8 +17,6 @@ const (
 	DELETE Method = "DELETE"
 )
 
-// var TimeOut = 0...features going to come shortly
-
 func Request(url url.URL, req interface{}, methods ...Method) (res *http.Response, body string, err error) {
 	request := gorequest.New()
 	u := url.String()
